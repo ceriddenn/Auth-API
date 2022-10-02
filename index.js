@@ -17,7 +17,7 @@ app.use(express.json())
 app.use('/api/users', authRoute);
 
 //DB Connecy
-mongoose.connect('mongodb+srv://dbadmin:dbadmin@bot1.kind2.mongodb.net/jwtauthapi?retryWrites=true&w=majority',{ useNewUrlParser: true }, () => {
+mongoose.connect('',{ useNewUrlParser: true }, () => {
   console.log('connected to mongo-db!')
 })
 
